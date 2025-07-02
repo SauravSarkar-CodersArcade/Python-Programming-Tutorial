@@ -1,0 +1,350 @@
+Programming/Coding: The process of interacting with the computer is called programming/coding.
+Programming Language: The language usd to interact with the computer is called programming language.
+Eg: C, C++, Java, Python, etc.
+Program:
+The set of instructions given to the computer to perform a specific task is called program.
+In IT industry it is called Source Code.
+
+Python : Founder : Gudio van Rossum, 1991
+Monty Python Flying Circus
+Java : James Gosling, 1995, Sun Micro Systems
+Coffee Brand
+
+Complier: An entity which translates High level language to Machine Level Language and vice versa is called the compiler.
+
+Assembly, Machine, Symbolic, High Level.
+
+Data types in Python:
+* Build-in - int, float, str, bool
+* User-defined - list, set, tuple, dictionaries, arrays, etc.
+
+Variable: It is a memory location where we can store data based on the data type.
+
+Naming Conventions :
+1. Camel case: -> variables, functions.
+eg: rateOfInterest = 5
+2. Pascal case:  -> Classes or Constants.
+eg: RateOfInterest = 5;
+
+IDE : An IDE or Integrated Development Environment is an editor where we can write, edit, debug and execute our programs.
+
+Java -> Intellij Idea or Eclipse
+Python -> PyCharm (Development) Ai/Ml: Jupyter
+C/C++ -> CLion
+Parent Company : JetBrains
+
+Software :
+1. System Software
+2. Application Software
+
+Operators :
+1. Arithmetic -> +,-,/,//,%,*,**
+2. Assignment / Augmented / Shorthand -> =,+=,-=,/=,//=,%=,*=,**=
+3. Relational / Comparison -> >,<,>=,<=,==,!=
+4. Logical -> and, or, not
+5. Membership -> in and not in
+6. Identity -> is, is not
+7. Bitwise -> &,|,^,~,>>,<<
+& -> Ampersand (bitwise and),
+| -> Pipe Symbol(bitwise or),
+^ -> Caret (bitwise xor),
+~ -> Tilde (bitwise not),
+>>,<< -> Angular Brackets (bitwise shift operators)
+
+Strings:
+
+It is a sequence of characters. It contains:
+1. Alphabets ->(a-z)(A-Z)
+2. Numbers   ->(0-9,1.2.4.4)
+3. Special Characters ->(!@#$%^&*)
+4. White spaces
+
+TCS 2022, December
+Q. Create a list of passwords, take user input of the
+password, check availability and display access granted
+or access denied.
+
+Anagrams:
+
+SILENT
+LISTEN
+
+STUDY
+DUSTY
+
+NIGHT
+THING
+
+DORMITORY
+DIRTY ROOM
+Same letters, different arrangement.
+Two given strings we need to check whether they are anagrams
+or not.
+
+PANGRAM ?
+
+A sentence having all letters of
+English alphabets.
+
+The quick brown fox jumps over the lazy dog.
+
+All vowels (a,e,i,o,u)
+EDUCATION
+CAULIFLOWER
+MOZAMBIQUE
+
+
+Conditional Statements:
+
+1. Simple if - only 1 condition
+2. if - else - only two conditions
+3. if-elif ladder - More than 2 conditions
+4. Nested if-else - Branching of conditions
+5. match case Python - 10 or 3.10 - 2021 - Better version of (if-elif) statements
+
+Jump Statements:
+1. break - It terminates the loop and stops the execution
+2. continue - It skips the current iteration and goes to the beginning of the loop for the next value
+
+
+Loops:
+1. for - finite
+2. while - infinite/uncertain
+
+Printing multiplication table
+
+1x1=1 1x2=2........1x10=10
+.
+
+
+
+10x1=10 ...........10x10=100
+Functions in Python:
+A function is a block of code which is used to execute a specific task,
+ whenever it is called.
+A function remains stagnant if it is not called.
+
+1. Arbitrary Arguments.
+2. Keyword Arguments.
+3. Arbitrary keyword arguments.
+
+lambda function / anonymous function / shortcut function/
+oneline function
+It is called anonymous because we dont use the def keyword.
+
+function_name = lambda args : expression
+
+Python built-in data types:
+
+* Lists :
+* A list is a compound data type.
+* It contains items separated by commas and enclosed
+within square brackets([]).
+* Lists are similar to arrays in C, C++ or Java.
+* One difference between them is that the items belonging to
+a list can be of different data type.
+* The values stored inside a list can be accessed using the []
+operator and index.
+* Index starts at 0.
+* Lists are mutable. Their content can be changed.
+
+* Tuples
+* Sets
+* Dictionaries
+
+TCS NQT : 4 minutes
+September 2022:
+MindTree / HackerRank
+Demonstrate Linear Search Algorithm in Python using the
+globals() function and applying the global variable constraint.
+
+"""
+Q. Use the filter() function to get all even numbers in a list
+"""
+
+Tuples:
+* Tuples are very similar to lists.
+* Only exception is that they are immutable.
+* They are created using parentheses, rather than
+square brackets.
+
+Sets in Python:
+* A set is created by placing all the elements inside
+curly brackets {}. Sets can also be created by the set() function.
+* The elements can be of different types(int, float, str)
+* But, a set cannot have mutable elements like list,
+set or dictionary.
+
+# Read a string and find the number of unique characters
+Important set operations:
+Union
+Intersection
+Difference
+Symmetric Difference
+
+.doc, .docx, .txt, .json, .csv comma separated values
+java script object notation
+
+Dictionaries:
+* We create a dictionary by placing items inside  curly
+brackets {} separated by a comma.
+* Each element in a dictionary is a (key - value) pair.
+* While values can be of any data type and can repeat,
+keys must be unique and must be immutable.
+
+Question:
+Determine the number of digits, spaces, upper cases, and
+lower cases in a given string.
+
+OOPs in Python:
+Object oriented programming is used to solve complex real-world
+problems using classes and objects.
+Advantages:
+1. Code Re-usability
+2. Code Efficiency
+3. Time management
+4. Data Security
+5. Scalable Applications
+6. Better memory management
+7. Data encryption
+
+Class : It is a collection of objects.
+Suppose Vehicle is a class.
+Then types of vehicles will be the objects.
+Ex: Car, Bus. truck, etc
+And, each object will have attributes or properties:
+Ex: name, size, colour, price
+And, each object will have a behaviour called methods:
+ex: sound(), brake(), etc.
+
+self is the default parameter inside all methods in a class. It is replaced by the calling object.
+It behaves the same as the 'this' keyword in C++ or Java.
+
+class Student
+
+A programming language is called object-oriented because of its
+four important pillars:
+1. Inheritance : Accessing the properties of the parent class and using them in the child class
+is called inheritance. Inheritance can be of the following types:
+Single level
+Multi level
+Multiple
+Hybrid
+Hierarchical
+Memory leak: Unnecessary data from parent class will be available to the child class,
+this is called memory leakage.
+Parent & Child
+Super & Sub
+Base class & Child class
+
+In multiple inheritance, we inherit multiple classes by separating them with a comma.
+
+
+2. Abstraction:
+Hiding the implementation details and only showing the functionality to the end-user
+is called abstraction. It is used to increase the efficiency of the product and also for
+data security/hiding.
+Ex: Remote Control of a TV:
+We are just bothered about changing the channels, increasing/decreasing the volume
+and so on. We are not worried about the technology being used underneath the remote.
+
+Focus on what is happening rather than how it is happening.
+
+In Python we achieve abstraction using the ABC class.
+Abstract Base Class (ABC)   (0-100%)
+Abstract Methods
+Note:
+If we use only an abstract method in the class, it is 100% abstraction.
+If we have even one single normal / concrete method, it is not 100% abstraction.
+
+An abstract method is a method with empty bodies.
+The body of the method is provided in the child class which inherits the class.
+
+3. Polymorphism :
+Poly -> many - morph -> shapes / forms
+The process by which same method can behave differently in different scenarios
+is called polymorphism.
+1. Compile - time polymorphism Overloading  (Same class)
+2. Run - time - polymorphism Overriding (Different classes)
+Method overloading  (Not possible in Python) (C++ & Java)
+Operator Overloading. +,-, <, >
+Method overriding: Same function acts differently in different classes.
+
+Example:
+Inside class -> Student
+In a restaurant -> Customer
+At home -> Son/Daughter
+Lady - teacher, wife, mother
+The person doesn't change. Only the behaviour / character changes.
+
+Duck Typing ? TCS Infosys, Capgemini Interpreted / dynamic programming language
+As long as it behaves like a duck. walks like a duck, quacks like a duck, it is a duck.
+As long as a function gets data, it executes and gives output. It is not bothered about
+the source from where it is coming.
+
+PyCharm
+VS Code
+Terminal
+Jupyter
+Notepad
+
+
+4. Encapsulation : The process of binding the data members, variables and methods into
+one single block or entity is called encapsulation.
+It is done so that the data is not accidentally modified.
+Capsule :
+It safeguards the medicine inside it and wraps the contents into a
+block/protective layer.
+
+We achieve encapsulation by using double underscore for the data members
+and access them using getters and setters.
+The data members are private here. Getters and setters are used to provide access
+to the user.
+
+Five questions:
+a. Domain / expertise.
+b. Target Profile.
+c. 3 Target companies.
+d. 2 JDs.
+e. Domain for internship/training.
+
+
+File Handling Concepts in Python:
+Four important modes:
+1. read   'r'
+2. write  'w' -> create if not available. (overwriting)
+3. append 'a' -> (adding new data and keeping the earlier data intact)
+4. create  'x' -> Create a file if it doesn't
+exist, but will throw an error if it exists.
+
+CRUD : Create, Read, Update, Delete
+text file -> .txt (manually)
+excel files -> .xls, .xlsx (binary) openpyxl
+json -> .json (json)
+
+Array : Collection of data based on the data type.
+In python we can use lists as arrays.
+Types:
+Single Dimensional array.
+Multi Dimensional Array.
+
+Python JSON:
+JSON means JavaScript Object Notation.
+It is used to transfer data between computers (Client/Server machines)
+It is used in APIs.
+json is language independent. We can use json in any language.
+But we need to convert it to json_object.
+In Python we have built in module/library json.
+There are two important functions:
+1. loads()
+2. dumps()
+
+1. Create a json
+2. Read a json
+
+
+
+
+
+
+
